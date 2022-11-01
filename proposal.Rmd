@@ -1,6 +1,7 @@
 # Proposal
 
 ## Research topic
+In this project, we'd like to what methods we have at our disposal for reducing the dimensionality of (potentially very high dimensional) data down to 2 dimensions for purposes of revealing structure while maintaining a clean visual for human-eyes and minimising information loss? We'll explore various methods, using the MNIST (Modified National Institute of Standards and Technology) dataset (28x28 pixel, black-and-white images of hand-drawn digits 0-9) as our lab rat. As the data lies natively in 28x28=784 dimensional space, we will perform severe dimensionality reduction down to 2 dimensions, and attempt to work with animated 3-D plots for the latter part of the project.
 
 ## Data availability
-
+There is no strict requirement that the MNIST dataset has to be used, and so there is a wide range of options for datasets. That being said, it's a widely used dataset and is the topic of a large number of papers and analyses similar to that of the topic of this project. Information about the dataset can be found at https://en.wikipedia.org/wiki/MNIST_database and it can be downloaded from https://yann.lecun.com/exdb/mnist/ or https://deepai.org/dataset/mnist. Containing around roughly 70,000 total images of digits handwritten by American Census Bureau employees and American high school students, the MNIST dataset has been modified to a standardised format of anti-aliased, black-and-white 28x28 pixels. Despite this modification being trace-able back to the source, there is also an option of using raw, unprocessed data.
